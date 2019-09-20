@@ -1,0 +1,8 @@
+{
+   "name": "Test PWA fullscreen",
+   "display": "standalone",
+   "icons": [{
+      "src": "icon-256.png",
+      "sizes": "256x256"}
+   ]
+}
