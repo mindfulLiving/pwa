@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0" /> 
+<title>Page jump test</title>
+<style>
+  p { font-weight: bold; background: #c00; color: #000; font-family: sans-serif; padding: 200px 10px; text-shadow: 0 0 10px #fff; } 
+  a { color: #000; text-shadow: 0 0 10px #fff; }
+  #one { background: #ff0; }
+  #two { background: #ff0; }
+  #three { background: #0ff; }
+  #four { background: #0f0; }
+  #five { background: #ff0; }
+</style>
+</head>
+<body onload="window.scrollTo(0,100);">
+  <p id="one">one <a target="_blank" href="?">without hash link</a></p>
+  <p id="two">two <a target="_blank" href="#four">with hash link (to four)</a></p>
+ <!-- <p id="three">three</p>
+  <p id="four">four</p>
+  <p id="five">five</p>
+-->
+</body>
+</html>
