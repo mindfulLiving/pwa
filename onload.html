@@ -14,7 +14,11 @@
   #five { background: #ff0; }
 </style>
 </head>
-<body onload="window.scrollTo(0,100);">
+<body onload="window.scrollTo({
+    top: 150,
+    left: 100,
+    behavior: 'smooth'
+  });">
   <p id="one">one <a target="_blank" href="?">without hash link</a></p>
   <p id="two">two <a target="_blank" href="#four">with hash link (to four)</a></p>
  <!-- <p id="three">three</p>
